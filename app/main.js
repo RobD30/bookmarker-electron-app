@@ -9,7 +9,7 @@ app.on('ready', () => {
     show: false
   });
 
-  mainWindow.loadURL('https://frontendmasters.com');
+  mainWindow.loadURL('file://${__dirname}/app/index.html');
 
   mainWindow.once('ready-to-show', () => {
     mainWindow.show();
