@@ -1,5 +1,5 @@
 {
-  "name": "fem-bookmarker",
+  "name": "bookmarker-electron-app",
   "version": "1.0.0",
   "description": "A simple bookmarker application using Electron.",
   "main": "app/main.js",
