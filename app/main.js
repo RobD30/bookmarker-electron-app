@@ -7,9 +7,9 @@ app.on('ready', () => {
         show: false
     });
 
-    mainWind.once('ready-to-show', () => {
+    mainWindow.once('ready-to-show', () => {
         mainWindow.show();
-    })
+    });
 
     mainWindow.loadURL('file://${__dirname}/index.html');
 });
